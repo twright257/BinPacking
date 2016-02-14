@@ -49,6 +49,8 @@ placed on the level and the remaining width left. If next box fits height constr
 width removed from level tuple. If cannot fit, new level created with height of that box. Level list tuples checked from bottom up
 to see if new box will fit. Tuple removed from list when width maximized.
 
+Next: Maybe keep track of vertical space above other rectangles and try to put into those spaces?????????????
+
 FIND_SOLUTION:
     Define this function in bin_packing.py, along with any auxiliary
 functions that you need.  Do not change the driver.py file at all.
