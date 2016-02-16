@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import numpy as np
+=======
+>>>>>>> refs/remotes/origin/master
 # ----------------------------------------------
 # CSCI 338, Spring 2016, Bin Packing Assignment
 # Author: John Paxton
@@ -40,6 +43,7 @@ def find_naive_solution (rectangles):
 
 # -----------------------------------------------
 
+<<<<<<< HEAD
 
 
 """
@@ -51,6 +55,9 @@ to see if new box will fit. Tuple removed from list when width maximized.
 
 Next: Maybe keep track of vertical space above other rectangles and try to put into those spaces?????????????
 
+=======
+"""
+>>>>>>> refs/remotes/origin/master
 FIND_SOLUTION:
     Define this function in bin_packing.py, along with any auxiliary
 functions that you need.  Do not change the driver.py file at all.
@@ -64,6 +71,7 @@ RETURNS: a list of tuples that designate the top left corner placement,
          x1 = top left x coordinate of rectangle 1 placement
          y1 = top left y coordinate of rectangle 1 placement, etc.
 """
+<<<<<<< HEAD
 def find_solution(rectangles):
     #set bin width boundary
     bin_width = 25000                   #Have been tuning this
@@ -110,3 +118,8 @@ def search_levels(rectangle, levels, bin_width):
 
 
 
+=======
+
+def find_solution(rectangles):
+    return find_naive_solution(rectangles)  # a working example!
+>>>>>>> refs/remotes/origin/master
